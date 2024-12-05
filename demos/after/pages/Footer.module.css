@@ -1,0 +1,27 @@
+/* /components/Footer.module.css */
+
+.footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text */
+    text-align: center; /* Center-align the text */
+    padding: 20px 0; /* Padding around the footer */
+    position: fixed; /* Fix the footer at the bottom of the screen */
+    bottom: 0; /* Align the footer at the bottom */
+    width: 100%; /* Full width to cover the entire page */
+    font-size: 14px; /* Smaller font size for footer text */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow to the top of the footer */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove any default margin from <p> */
+  }
+  
+  .footer a {
+    color: #f0a500; /* Orange color for links in footer */
+    text-decoration: none; /* No underline for links */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+  }
+  

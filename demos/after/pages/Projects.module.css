@@ -1,0 +1,60 @@
+/* /components/Projects.module.css */
+
+/* Overall container for the Projects page */
+.projectsContainer {
+    background-color: #f4f7f6; /* Light grey background */
+    padding: 30px 20px;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  /* Header Styling */
+  .projectsTitle {
+    text-align: center;  /* Center the title */
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Container for the project cards */
+  .projectsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the grid */
+  }
+  
+  /* Styling for each project card */
+  .projectCard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add a smooth hover effect */
+  }
+  
+  .projectCard:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
+  .projectCard h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .projectCard p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Footer margin */
+  .footer {
+    margin-top: 40px;
+  }
+  
